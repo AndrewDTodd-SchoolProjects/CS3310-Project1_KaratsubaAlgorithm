@@ -20,6 +20,11 @@ int main()
     std::cout << std::endl;
 
     std::cout << "The product of the two numbers you entered is: " << karatsuba(numOne, numTwo) << std::endl;
+
+    std::cout << "Press any key to exit...";
+    std::cin;
+
+    return 0;
 }
 
 std::int64_t karatsuba(const int& numOne, const int& numTwo)
